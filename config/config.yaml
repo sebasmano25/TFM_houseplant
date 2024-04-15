@@ -1,0 +1,15 @@
+kafka:
+  bootstrap.servers: "pkc-n3603.us-central1.gcp.confluent.cloud:9092"
+  security.protocol: "SASL_SSL"
+  sasl.mechanisms: "PLAIN"
+  sasl.username: "6NBPE6MH5SQU4ADY"
+  sasl.password: "dFF1c01rmjCbcV2bD3HHnFWEaJaJz0rA/ywoOw79YVwZhfP1yatL2deMBQS7h0Y1"
+
+schema-registry:
+  schema.registry.url: "https://pkc-619z3.us-east1.gcp.confluent.cloud"
+  basic.auth.credentials.source: "USER_INFO"
+  basic.auth.user.info: "UVpCRFhNSEhKVExEUVNTUTpuUGh4QTFjeXI4aDFzV2NrYmgwNXdSZU9vVDBOVnRkR2d2b1V5WWdWS1pOaVVidGc5bnE5ZVNzT2Qrd2JCdFha"
+
+topics:
+  readings: "houseplant-readings"
+  mappings: "houseplant-sensor-mapping"
